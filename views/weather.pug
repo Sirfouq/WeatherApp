@@ -1,0 +1,9 @@
+extends layout 
+
+block content
+  h1=title 
+  p The weather  in Athens, Greece is #{weather} 
+  p The temperature is #{temp}
+  p Local Time is #{time}
+  a(class = 'button',href = '/sendWeatherAPI') Get Weather
+
